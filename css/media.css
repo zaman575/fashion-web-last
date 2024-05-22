@@ -22,7 +22,7 @@
     align-items: center;
 }
 .navMenu ul li a{
-    font-size: 20px;
+    font-size: 18px;
 }
 .heroSection{
     height: 100vh;
@@ -191,17 +191,24 @@ visibility: hidden;
     .col-1-3{
         max-width: 30%;
     }
-    .navLogo img{
+   .navLogo img{
     width: 70px;
-}
-
-.navMenu ul li a{
-    padding: 2px 3px;
+    padding: 0px;
 }
     nav{
-    background-color: #bcbaba;  
+    flex-direction: column;
+    background-color: #ede3e3;
+    position: static;
+    z-index: 0;
+}
+.navLeft{
+    flex-direction: column;
 }
 .navRight{
-    margin:10px 0px;
+    margin:3px 0px;
+    align-items: center;
+}
+.navMenu ul li a{
+    font-size: 15px;
 }
 }
