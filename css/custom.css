@@ -164,6 +164,8 @@ nav{
 
  /* hero section css */
  .heroSection{
+    margin: 0 auto;
+    max-width: 1200px;
     height: 100vh;
     background-image: url(../image/shopping1.jpg);
     background-repeat: no-repeat;
